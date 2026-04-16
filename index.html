@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table Demo</title>
+    </head>
+    <body>
+        <h1 align="center" style="color: red;"><u><i>Student Registration Form</i></u></h1>
+        <table align="center" border="2">
+           <tr>
+              <td>Student Id</td>
+              <td><input type="text" name="studentid"/></td>
+           </tr>
+            <tr>
+              <td>Student Name</td>
+              <td><input type="text" name="studentname"/></td>
+           </tr>
+           <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" name="gender" value="male"/>Male
+                <input type="radio" name="gender" value="female"/>Female
+            </td>
+           </tr>
+           <tr>
+            <td>Qualification</td>
+            <td>
+                <input type="checkbox" name="bsc" value="bsc"/>BSc
+                <input type="checkbox" name="msc" value="msc"/>MSc
+                <input type="checkbox" name="phd" value="phd"/>PhD
+            </td>
+           </tr>
+           <tr>
+            <td>Cast</td>
+            <td>
+                <select name="cast">
+                    <option value="general">General</option>
+                    <option value="obc">OBC</option>
+                    <option value="sc">SC</option>
+                    <option value="st">ST</option>
+                </select>
+            </td>
+           </tr>
+           <tr>
+            <td>Address</td>
+            <td><textarea name="address" rows="4" cols="30"></textarea></td>
+           </tr>
+           <tr>
+             <td><input type="submit" value="Submit"/></td>
+            <td><input type="reset" value="Reset"/></td>
+           
+           </tr>
+        </table>
+    </body>
+</html>
